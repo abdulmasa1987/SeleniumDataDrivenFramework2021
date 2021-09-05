@@ -1,0 +1,22 @@
+Generic Keywords
+
+OpenBrowser
+click
+Type
+Select
+Navigate to website
+Read the text
+
+
+
+Validation Keyword --
+
+validateTitle
+validateText
+validateElementPresent
+
+
+Application Dependent Keywords
+Login
+SelectDateFromCalendar
+verifyStockAdded

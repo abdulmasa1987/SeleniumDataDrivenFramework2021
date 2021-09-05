@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]">
+  <test thread-count="5" name="Add New Stock-New Stock-It.2(failed)">
+    <parameter name="datafilpath" value="E:\Selenium_Training\DataDrivenFramework//src//test//resources//data//stockdata.json"/>
+    <parameter name="action" value="addstock"/>
+    <parameter name="para1" value="paraval1"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="dataflag" value="addfreshstock"/>
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent"/>
+          <include name="verifyTransactionHistory"/>
+          <include name="addNewStock"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="selectPortFolio"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Add New Stock-New Stock-It.2(failed) -->
+  <test thread-count="5" name="Modify Stock-Sell Existing Stock-It.1(failed)">
+    <parameter name="datafilpath" value="E:\Selenium_Training\DataDrivenFramework//src//test//resources//data//stockdata.json"/>
+    <parameter name="action" value="sellstock"/>
+    <parameter name="para1" value="paraval1"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="dataflag" value="sellexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="modifyStock"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent"/>
+          <include name="verifyTransactionHistory"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="selectPortFolio"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Sell Existing Stock-It.1(failed) -->
+  <test thread-count="5" name="Modify Stock-Buy Existing Stock-It.1(failed)">
+    <parameter name="datafilpath" value="E:\Selenium_Training\DataDrivenFramework//src//test//resources//data//stockdata.json"/>
+    <parameter name="action" value="addstock"/>
+    <parameter name="para1" value="paraval1"/>
+    <parameter name="iteration" value="0"/>
+    <parameter name="dataflag" value="addexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="modifyStock"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent"/>
+          <include name="verifyTransactionHistory"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="selectPortFolio"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Buy Existing Stock-It.1(failed) -->
+  <test thread-count="5" name="Modify Stock-Buy Existing Stock-It.2(failed)">
+    <parameter name="datafilpath" value="E:\Selenium_Training\DataDrivenFramework//src//test//resources//data//stockdata.json"/>
+    <parameter name="action" value="addstock"/>
+    <parameter name="para1" value="paraval1"/>
+    <parameter name="iteration" value="1"/>
+    <parameter name="dataflag" value="addexistingstock"/>
+    <classes>
+      <class name="testcases.rediff.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="modifyStock"/>
+          <include name="quit"/>
+          <include name="verifyStockQuantity"/>
+          <include name="verifyStockPresent"/>
+          <include name="verifyTransactionHistory"/>
+        </methods>
+      </class> <!-- testcases.rediff.StockManagement -->
+      <class name="testcases.rediff.PortfolioManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="selectPortFolio"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </classes>
+  </test> <!-- Modify Stock-Buy Existing Stock-It.2(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

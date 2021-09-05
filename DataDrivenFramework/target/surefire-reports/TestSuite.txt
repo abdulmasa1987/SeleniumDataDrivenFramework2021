@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 204.196 sec <<< FAILURE!
+verifyStockPresent(testcases.rediff.StockManagement)  Time elapsed: 2.58 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Stock Not present Birla Corporation Ltd
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at Keywords.GenericKeywords.assertall(GenericKeywords.java:355)
+	at Keywords.GenericKeywords.reportfailure(GenericKeywords.java:348)
+	at testcases.rediff.StockManagement.verifyStockPresent(StockManagement.java:77)
+

@@ -1,0 +1,13 @@
+HUB AND NODE
+Hub:
+java -jar selenium-server-4.0.0-beta-4.jar hub
+XPUB and XSUB in logs
+
+Node:
+java -jar selenium-server-4.0.0-alpha-6.jar node
+ XPUB --publish-events -> Hub IP
+ XSUB --subscribe-events -> Hub IP
+java -jar selenium-server-4.0.0-alpha-6.jar node -p 5557 --max-sessions 1 --publish-events tcp://localhost:4442 --subscribe-events tcp://localhost:4443
+java -jar selenium-server-4.0.0-alpha-6.jar node -p 5558 --max-sessions 1 --publish-events tcp://localhost:4442 --subscribe-events tcp://localhost:4443
+
+Test
